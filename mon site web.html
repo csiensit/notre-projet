@@ -47,16 +47,16 @@ return(true);
 }
 <!-- fonction qui permet l'activation du boutton "In What ?" -->
 function ekteb (){
-paragraph="Nou sommes le Club Sécurité Informatique de l'Ecole Nationale des Ingénieures de Tunis , nous aurons l'honneure de vous acceuillir au sein de notre clubveuillez s'il vous plait cliquer sur le lien de L'INSCRIPTION ci dessous" ;
+paragraph="Nou sommes le Club SÃ©curitÃ© Informatique de l'Ecole Nationale des IngÃ©nieures de Tunis , nous aurons l'honneure de vous acceuillir au sein de notre clubveuillez s'il vous plait cliquer sur le lien de L'INSCRIPTION ci dessous" ;
 if (video()==true) 
 document.getElementById('intro').innerHTML = paragraph;
 }
-<!--fonction qui permet l'affichage du jour ,la date et l'anneé -->
+<!--fonction qui permet l'affichage du jour ,la date et l'anneÃ© -->
 function showDate()
 {
 	var now = new Date();
 	var days = new Array('Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi');
-	var months = new Array('Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Aôut','Septembre','Octobre','Novembre','Decembre');
+	var months = new Array('Janvier','FÃ©vrier','Mars','Avril','Mai','Juin','Juillet','AÃ´ut','Septembre','Octobre','Novembre','Decembre');
 	var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
 	function fourdigits(number)
 	{
@@ -101,19 +101,19 @@ setInterval("showDate()", 1000);
 <center>
   <table width="100%"  border="1" >
   <tr>
-  <!--premiére colonne --> 
+  <!--premiÃ©re colonne --> 
         <td width="600" height="400">
 		        <video width="600" height="400" id="v1" controls autoplay>
                 <source src="The Simpsons Computer Guy Quote.mp4" type="video/mp4">
                 Your browser must support HTML5 video.
                 </video>
         </td>
-<!--deuxiéme colonne -->
+<!--deuxiÃ©me colonne -->
 		<td width="200" height="300"> 
 		     <button class="btn "type="button" onclick="ekteb()">In What ?</button> 
 			  
 		</td>
-    <!--troisiéme colonne -->
+    <!--troisiÃ©me colonne -->
 	    <td > 
 		
 		          <p class="style2" id="intro"></p> 
@@ -129,3 +129,4 @@ setInterval("showDate()", 1000);
 </body>
 
 </html>
+bbb
